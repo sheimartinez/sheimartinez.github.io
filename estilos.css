@@ -44,3 +44,27 @@
 .experiencia{
   padding: 20px;
 }
+
+/* Código para ajustarse a tablets*/
+@media (max-width: 768px) {
+  .mi-contenido {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagen {
+    margin-top: 20px;
+  }
+}
+
+/*Código para ajustarse a celulares*/
+@media (max-width: 480px) {
+  #encabezado h1 {
+    font-size: 24px;
+  }
+  #sobre-mi h2, .experiencia h2 {
+    font-size: 20px;
+  }
+  .texto-destacado {
+    font-size: 16px;
+  }
+}
